@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(41, 40, 40);
+    color: white;
+    font-size: 14pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+
+header {
+    height: 400px;
+    background: rgb(114, 39, 4);
+    padding: 20px;
+    background-position: top;
+    background-attachment: fixed;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/woodtable.jpg)            
+}
+header.locations {
+    height: 400px;
+    background: rgb(114, 39, 4);
+    padding: 20px;
+    background-position: top;
+    background-attachment: fixed;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/locationsbg.jpg)     
+}
+header .logo a {
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url("images/logo.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    position:relative;
+    top: -10px;
+    right: -800px;
+}
+
+section {
+    background: white;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+section.good {
+    font-weight: bold;
+    font-size: large;
+    background:rgb(43, 43, 56);
+}
+
+div {
+    margin: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+section.snow {
+    background-image: url(images/bgheader2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 300px;
+}
+
+section.tree {
+    padding-left: 1100px;
+    background: rgb(43, 43, 56);
+    color:white;
+    font-weight: bold;   
+}
+section.pen {
+    background-image: url(images/bgheader3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 300px;
+}
+
+footer {
+    background:rgb(43, 43, 56);
+    text-align:center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20pt;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: inherit;
+}
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+a:link {
+   text-decoration: none;
+   color: white;
+   top: 10px;
+   position: relative;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: pink;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+h1 {
+    position:relative;
+    top: -160px;
+}
+li.book {
+    visibility:hidden;
+}
+
+
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    color: pink;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+    position:relative;
+    right: 490px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: relative;
+    right: -30px;
+    top: -15px;
+    background-color: inherit;
+    min-width: 150px;
+    height: 50px;
+    z-index: 1;
+    padding: 0px;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    text-decoration: none;
+    font-size: 12pt;
+    text-transform: capitalize;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: inherit;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.neverland div {
+display: inline-block;
+color: black;
+}
+.neverlandwords {
+    color: black;
+    background-color: lightblue;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+}
+.neverlandpicture {
+    height: 500px;
+    width: 700px;
+}
+
+.hogsmeade, .city{
+    margin-top: 10px;
+}
+.hogsmeadepicture img {
+    height: 100%;
+    width: 85%;
+}
+
+
+
